@@ -1,0 +1,46 @@
+export const rooms = [
+  {
+    slug: "kamar-ac",
+    name: "Kamar AC",
+    type: "AC Room",
+    priceNormal: 160000,
+    pricePromo: 150000,
+    desc: "Kamar nyaman dengan pendingin ruangan, cocok untuk istirahat setelah beraktivitas seharian.",
+    images: [
+      "/images/rooms/room-ac-1.png",
+      "/images/rooms/room-ac-2.png",
+      "/images/rooms/room-ac-3.png",
+      "/images/rooms/room-ac-4.png",
+    ],
+    facilities: [
+      "AC",
+      "WiFi",
+      "TV",
+      "Kamar Mandi Dalam",
+      "Meja & Kursi",
+      "Balkon",
+    ],
+  },
+  {
+    slug: "kamar-kipas",
+    name: "Kamar Kipas",
+    type: "Fan Room",
+    priceNormal: 130000,
+    pricePromo: 125000,
+    desc: "Pilihan hemat dengan sirkulasi udara yang baik, cocok untuk short stay.",
+    images: [
+      "/images/rooms/room-kipas-1.png",
+      "/images/rooms/room-kipas-2.png",
+      "/images/rooms/room-kipas-3.png",
+      "/images/rooms/room-kipas-4.png",
+    ],
+    facilities: [
+      "Kipas Angin",
+      "WiFi",
+      "TV",
+      "Kamar Mandi Dalam",
+      "Meja & Kursi",
+      "Balkon",
+    ],
+  },
+];
