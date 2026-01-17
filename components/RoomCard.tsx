@@ -127,10 +127,7 @@ export default function RoomCard({ room }: Props) {
         </div>
 
         {/* CTA */}
-        <Link
-          href={`/rooms/${room.slug}`}
-          className="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-green-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-700"
-        >
+        <Link href={`/rooms/${room.slug}`} className="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-green-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-700">
           Lihat Detail Kamar
         </Link>
       </div>
