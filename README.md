@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏡 Tjana Homestay – Landing Page
 
-## Getting Started
+Landing page modern & minimalis untuk **Tjana Homestay**, sebuah homestay yang berlokasi di **Sanur, Bali**.  
+Website ini dibangun sebagai **one-page landing website** dengan fokus pada pengalaman pengguna yang halus, desain premium, dan kemudahan booking melalui WhatsApp.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Fitur Utama
+
+- ⚡ Built with **Next.js App Router**
+- 🎨 Styling menggunakan **Tailwind CSS**
+- 🧭 **Smooth scroll navigation** (one-page)
+- 🖼️ **Hero image slider** interaktif
+- 🏨 **Tipe kamar** (AC & Kipas) dengan card & image carousel
+- 🏍️ **Penyewaan motor** dengan promo harga
+- 📍 **Destinasi terdekat** (Pantai Sanur, Renon, Kuta)
+- ⭐ **Review tamu (Google Review – static)**
+- ❓ **FAQ accordion**
+- 🗺️ **Google Maps embed** (lokasi akurat)
+- 📱 Fully responsive (mobile & desktop)
+- ✨ Scroll animation halus & premium
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **Image Optimization:** next/image
+- **Deployment:** Vercel / Netlify ready
+
+---
+
+## 📂 Struktur Folder
+
+```
+src/
+├─ app/
+│  └─ page.tsx
+├─ components/
+│  ├─ Navbar.tsx
+│  ├─ HeroSlider.tsx
+│  ├─ FacilityCard.tsx
+│  ├─ RoomCard.tsx
+│  ├─ MotorSection.tsx
+│  ├─ DestinationCard.tsx
+│  ├─ ReviewSlider.tsx
+│  ├─ FAQSection.tsx
+│  ├─ ContactSection.tsx
+│  └─ Footer.tsx
+├─ data/
+│  ├─ facilities.ts
+│  ├─ rooms.ts
+│  ├─ destinations.ts
+│  ├─ reviews.ts
+│  └─ faqs.ts
+└─ public/
+   └─ images/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Cara Menjalankan Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/username/tjana-homestay.git
+cd tjana-homestay
+```
 
-## Learn More
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3️⃣ Jalankan Development Server
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Buka di browser:
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧭 Navigasi Section (One Page)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `#home` → Hero
+- `#facilities` → Fasilitas
+- `#rooms` → Tipe Kamar
+- `#motor` → Sewa Motor
+- `#destinations` → Destinasi Terdekat
+- `#contact` → Kontak & Lokasi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📍 Lokasi
+
+**Tjana Homestay – Sanur, Bali**  
+Lokasi ditampilkan menggunakan Google Maps embed dengan pin resmi homestay.
+
+---
+
+## ⚠️ Catatan Penting
+
+- Review Google ditampilkan secara **static**
+- Booking diarahkan langsung ke **WhatsApp**
+- Semua data bersifat **static**
+
+---
+
+## 📌 Rencana Pengembangan
+
+- [ ] Scroll-spy navbar
+- [ ] Halaman detail kamar
+- [ ] SEO meta & Open Graph
+- [ ] Multi bahasa
+
+---
+
+## 📄 Lisensi
+
+Project ini dibuat untuk kebutuhan website homestay dan bebas dimodifikasi.
+
+---
+
+## 👤 Author
+
+**Andi Suartika**  
+Frontend Developer – Next.js & Tailwind CSS
