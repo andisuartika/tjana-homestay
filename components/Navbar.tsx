@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link href="/" className="group flex items-center gap-3">
             <div className="relative h-11 w-11 transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="/images/logo.png"
+                src="/icon.png"
                 alt="Tjana Homestay Logo"
                 fill
                 className="object-contain"
