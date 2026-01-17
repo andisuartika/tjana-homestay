@@ -20,11 +20,6 @@ export const facilities = [
     desc: "Pilihan hemat dengan sirkulasi udara.",
   },
   {
-    icon: "https://img.icons8.com/?size=100&id=96768&format=png&color=12B886",
-    title: "Laundry Service",
-    desc: "Layanan laundry opsional sesuai kebutuhan.",
-  },
-  {
     icon: "https://img.icons8.com/?size=100&id=lQkUrHmfbn37&format=png&color=12B886",
     title: "Sewa Motor",
     desc: "Praktis untuk keliling Sanur & sekitar.",
