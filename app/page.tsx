@@ -59,7 +59,7 @@ export default function LandingPage() {
              <FadeUp delay={0.3}>
               <div className="mt-10 flex flex-wrap gap-4">
                 <a
-                  href={`https://wa.me/6281234567890?text=${encodeURIComponent(
+                  href={`https://wa.me/62811398859?text=${encodeURIComponent(
                     "Halo, saya mau booking Tjana Homestay di Sanur."
                   )}`}
                   target="_blank"
